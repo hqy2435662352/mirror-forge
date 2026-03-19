@@ -269,7 +269,7 @@ Clone the repository into your local skills directory:
 ```bash
 mkdir -p ~/.claude/skills
 cd ~/.claude/skills
-git clone https://github.com/<your-name>/mirrorforge.git
+git clone https://github.com/hqy2435662352/mirror-forge
 ```
 
 Expected path:
@@ -325,14 +325,6 @@ mirrorforge/
    └─ parsegsdfile-playbook.md
 ```
 
-Suggested roles:
-
-- `README.md` — project overview, positioning, installation, and usage
-- `README.zh-CN.md` — Chinese version of the project overview
-- `SKILL.md` — full execution protocol and hard gates
-- `examples/quick-example.md` — a short walkthrough for first-time readers
-- `examples/parsegsdfile-analysis-report.md` — full analysis report example
-- `examples/parsegsdfile-playbook.md` — generated playbook example
 ---
 
 ## Design philosophy

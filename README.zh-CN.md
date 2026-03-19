@@ -269,7 +269,7 @@ Playbook 的目的，不是永久存满所有完整报告。
 ```bash
 mkdir -p ~/.claude/skills
 cd ~/.claude/skills
-git clone https://github.com/<your-name>/mirrorforge.git
+git clone https://github.com/hqy2435662352/mirror-forge
 ```
 
 预期路径：
@@ -327,14 +327,6 @@ mirrorforge/
    └─ parsegsdfile-playbook.md
 ```
 
-建议分工：
-
-- `README.md` — 项目概览、定位、安装与使用
-- `README.zh-CN.md` — 中文版项目概览
-- `SKILL.md` — 完整执行协议与硬约束
-- `examples/quick-example.md` — 适合第一次了解项目的短例子
-- `examples/parsegsdfile-analysis-report.md` — 完整分析报告示例
-- `examples/parsegsdfile-playbook.md` — 对应生成的 playbook 示例
 ---
 
 ## 设计哲学
